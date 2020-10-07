@@ -2,14 +2,14 @@ body {
 	background: #3399ff;
 	font-family: 'Oswald', 'Futura', sans-serif;
 }
-#wrapper {
+wrapper {
 	margin-top: 10% !important;
 }
-#content {
+content {
 	background:#ffff99;
 	padding: 25px;
 }
-#content > h2 {
+content > h2 {
 	font-size: 18px;
 	text-align: center;
 	padding-top: 0;
@@ -28,7 +28,7 @@ footer {
 	margin-top: 20px;
 	color: white;
 }
-#add-btn {
+add-btn {
 	background-color:green;
 	border-color:green;
 }
