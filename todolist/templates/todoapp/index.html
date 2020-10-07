@@ -1,0 +1,27 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{%static 'todolist/bs/css/flatly.min.css'%}"/>
+    <link rel="stylesheet" href="{%static 'todolist/styles.css' %}" />
+
+    <title>ToDo List</title>
+  </head>
+  <body>
+    <h1>Things to do today</h1>
+    <div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Add new task" aria-label="Recipient's username" aria-describedby="button-addon2">
+  <div class="input-group-append">
+    <button class="btn btn-success" type="button" id="button-addon2">Add to list</button>
+  </div>
+</div>
+    <button type="button" class="btn btn-warning">Delete Completed</button>
+    <button type="button" class="btn btn-danger">Delete All</button>
+
+  </body>
+</html>
